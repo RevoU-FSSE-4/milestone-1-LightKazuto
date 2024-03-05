@@ -9,30 +9,72 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/c4ce458520.js"
+      crossorigin="anonymous"></script>
     <title>My Prtofolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   </head>
-  <nav>
-    <div class="nav-bar">
-      <div class="nav-logo">
-        <img src="Asset/logo.png" alt="Ilham Logo" />
+  <body>
+    <nav>
+      <div id="left" class="nav-bar">
+        <div class="nav-logo">
+          <img src="Asset/logo.png" alt="Ilham Logo" />
+        </div>
+        <form id="middle">
+          <div class="search">
+            <input
+              type="text"
+              class="searchTerm"
+              placeholder="What are you looking for?" />
+            <button type="submit" class="searchButton">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+        </form>
+        <div id="right" class="nav-pages">
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">PROJECT</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <div id="btn-right">
+          <button class="hamburger-menu">
+            <i class="fa-solid fa-bars icon-bars"></i>
+            <i class="fa-solid fa-xmark icon-close"></i>
+          </button>
+        </div>
       </div>
-      <div class="nav-pages">
-        <ul>
-          <li><a href="">HOME</a></li>
-          <li><a href="">PROJECT</a></li>
-          <li><a href="">CONTACT</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    </nav>
 
-  <main>
-    <div class="grid-container">
-      <div class="title">
-        <h1>Hi! I'm Ilham Sidiq -</h1>
-        <h2>Full Stack Development Junior</h2>
-        <p> </p>
+    <main>
+      <div class="grid-container">
+        <div id="grid-one" class="title">
+          <h1>Hi! I'm Ilham Sidiq -</h1>
+          <h2>Full Stack Development Junior</h2>
+          <p>
+            Web development and full stack engineer working on building web for
+            6 weeks so far, specializing in HTML and CSS.
+          </p>
+          <form>
+            <button class="btn">Download CV</button>
+            <button class="btn2">Hire Me Now</button>
+          </form>
+        </div>
+        <div id="grid-two">
+          <picture>
+            <source
+              class="mobile"
+              media="(max-width:650px)"
+              srcset="Asset/mobil.png" />
+            <img src="Asset/Untitled-2.png" alt="picture desktop" />
+          </picture>
+        </div>
       </div>
-    </div>
-  </main>
+    </main>
+  </body>
+  <script src="JS/Index.js"></script>
 </html>
