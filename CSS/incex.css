@@ -9,8 +9,7 @@ html{
 }
 
 body{
-    width: 100%;
-    height: 100%;
+
     background-image: url('background.jpg');
     object-fit: cover;
     min-height: 100%;
@@ -250,6 +249,7 @@ picture .mobile {
 }
 
 .grid-card .photo-card{
+    display: flex;
     background-color: #fff;
     box-shadow: 5px 5px 10px grey;
     text-align: left;
@@ -257,19 +257,34 @@ picture .mobile {
 
 .photo-card .text-head{
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 30px;
     font-weight: bold;
     font-size: 18px;
 }
 
 .photo-card .text-conten{
     margin-top:5px;
-    margin-left: 20px;
+    margin-left: 30px;
     font-size: 16px;
 }
 
 .photo-card p{
     font-family: monospace;
+    margin-left: 10px;
+}
+
+.ckls{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 35px;
+    color: #FBA834;
+}
+
+.title-project h2{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 100px;
+    
 }
 
 /* Project Card*/
@@ -293,7 +308,7 @@ picture .mobile {
     max-width: 80%;
     margin: 20px auto;
     padding: 20px;
-    margin-bottom: 200px;
+    margin-bottom: -200px;
 }
 
 .project .project-card{
@@ -339,11 +354,11 @@ picture .mobile {
 
 /* footer */
 footer{
-    position: fixed;
     left: 0;
     right: 0;
     bottom: 0;
     padding: 20px;
+    width: 100%;
 }
 
 .footer{
@@ -351,6 +366,10 @@ footer{
     box-shadow: 5px 1px 10px black;
     text-align: center;
     margin-top: 100px;
+}
+
+.footer h3{
+    margin-bottom: 10px;
 }
 
 .footer img{
@@ -656,7 +675,6 @@ footer{
         display: grid;
         grid-gap: 5%;
         max-width: 100%;
-        width: 100%;
-        
+        width: 100%;   
     }
 }
