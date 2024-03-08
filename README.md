@@ -2,7 +2,7 @@
 
 # How Wonderful to Meet You Here ! 👋
 
-HI!! my name Ilham Sidiq, As stated in the title I want. I want to show you. My newest project -- a website with a simple design but looks elegant. in arranging the layout so that it looks neat to make it easier for clients to see and operate this website. This website offers daily workers who have skills, high responsibility and high quality workers! I hope you like it and can cooperate with our company.
+HI!! my name Ilham Sidiq, As stated in the title I want. I want to show you. My newest project -- a website with a simple design but looks elegant. in arranging the layout so that it looks neat to make it easier for clients to see and operate this website. chosen of color make yor eye dont tired to see and softt to see the pages. This website offers daily workers who have skills, high responsibility and high quality workers! I hope you like it and can cooperate with our company.
 
 I have a priority to always uphold client satisfaction and continue to adapt to changing trends in the industry. by upholding the company's vision and mission.
 
